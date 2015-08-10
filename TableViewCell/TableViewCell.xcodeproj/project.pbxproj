@@ -14,6 +14,7 @@
 		188B13E51B788DE600CBE51B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188B13E41B788DE600CBE51B /* Images.xcassets */; };
 		188B13E81B788DE600CBE51B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188B13E61B788DE600CBE51B /* LaunchScreen.xib */; };
 		188B13F41B788DE600CBE51B /* TableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B13F31B788DE600CBE51B /* TableViewCellTests.m */; };
+		188B14311B78A29100CBE51B /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B14301B78A29100CBE51B /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		188B13ED1B788DE600CBE51B /* TableViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		188B13F21B788DE600CBE51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188B13F31B788DE600CBE51B /* TableViewCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellTests.m; sourceTree = "<group>"; };
+		188B142F1B78A29100CBE51B /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		188B14301B78A29100CBE51B /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				188B13DC1B788DE600CBE51B /* AppDelegate.m */,
 				188B13DE1B788DE600CBE51B /* ViewController.h */,
 				188B13DF1B788DE600CBE51B /* ViewController.m */,
+				188B142F1B78A29100CBE51B /* CustomTableViewCell.h */,
+				188B14301B78A29100CBE51B /* CustomTableViewCell.m */,
 				188B13E11B788DE600CBE51B /* Main.storyboard */,
 				188B13E41B788DE600CBE51B /* Images.xcassets */,
 				188B13E61B788DE600CBE51B /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				188B13E01B788DE600CBE51B /* ViewController.m in Sources */,
 				188B13DD1B788DE600CBE51B /* AppDelegate.m in Sources */,
+				188B14311B78A29100CBE51B /* CustomTableViewCell.m in Sources */,
 				188B13DA1B788DE600CBE51B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				188B13F91B788DE600CBE51B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188B13FA1B788DE600CBE51B /* Build configuration list for PBXNativeTarget "TableViewCellTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				188B13FC1B788DE600CBE51B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
